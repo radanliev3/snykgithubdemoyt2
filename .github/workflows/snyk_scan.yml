@@ -15,5 +15,3 @@ jobs:
           args: --sarif-file-output=snyk.sarif
       - name: Print the Snyk sarif file
         run : cat snyk.sarif
-
-        path: snyk_report.json
